@@ -1,0 +1,13 @@
+ext {
+    android = [
+            compileSdk           : 33,
+            namespace            : "com.mozhimen.pytorch_lite_mnist",
+            applicationId        : "com.mozhimen.pytorch_lite_mnist",
+            minSdk               : 21,
+            targetSdk            : 33,
+            versionCode          : 1,
+            renderscriptTargetApi: 18,
+            versionName          : "0.0.1",
+            multiDexEnabled      : true
+    ]
+}
