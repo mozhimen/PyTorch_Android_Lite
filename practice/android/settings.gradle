@@ -15,5 +15,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "pytorch-android-lite-mnist"
+rootProject.name = "pytorch-android-lite-practice"
 include ':app'

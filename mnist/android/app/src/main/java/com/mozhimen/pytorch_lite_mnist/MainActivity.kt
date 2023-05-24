@@ -4,13 +4,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import org.pytorch.Module
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val path = FileHandler.assetFilePath(this,"best_model.ptl")
+        val path = FileHandler.assetFilePath(this,"mobile_model.pt")
         val mModule = Module.load(path)
 
         val predictionView = findViewById<TextView>(R.id.prediction)
