@@ -32,3 +32,5 @@ google-services.json
 # Android Profiling
 *.hprof
 /android/app/src/main/assets/imageGen.pt
+*.pyc
+practice/android/app/src/main/assets/imageGen.pt
